@@ -1,3 +1,82 @@
-.color{
-    color: red;
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.header{
+    flex-direction: column;
+    height: auto;
+    margin-top: 8px;
+    
+}
+
+.logo{
+    flex-direction: column;
+    border: solid 2px #000;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+/***********CORPO************/
+
+
+.card_header{
+    background-color: #1a2c79;
+    border-radius: 8px 8px 0px 0px;
+    padding: 10px;
+    color: #ffff;
+}
+
+.corpo{
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 5px;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.logo_corpo{
+    flex-direction: column;
+
+}
+
+.class_corpo{
+    background-color: #e80556;
+    color: #ffff;
+    padding: 12px;
+}
+
+.spam_preco{
+    position: relative;
+    top: -34px;
+    left: 13px;
+    font-size: 45px;
+
+}
+
+.class_footer{
+    flex-direction: column;
+    
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+ul li::before{
+    content: "";
+    background-image: url('../img/ok.png');
+    background-size: contain;
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    margin-right: 5px
+
+}
+
