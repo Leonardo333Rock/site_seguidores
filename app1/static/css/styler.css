@@ -28,6 +28,18 @@
     color: #ffff;
 }
 
+.p1{
+    font-size: 25px;
+}
+
+.p2{
+    font-size: 18px;
+}
+
+.p_preco{
+    font-size: 60px;
+}
+
 .corpo{
     flex-wrap: wrap;
 }
@@ -66,6 +78,8 @@ ul{
     list-style-type: none;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
 
 }
 
