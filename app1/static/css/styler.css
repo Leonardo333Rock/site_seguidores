@@ -1,3 +1,11 @@
+
+.topo{
+    flex-direction: column;
+    width: 100%;
+
+}  
+
+
 .flex{
     display: flex;
     justify-content: center;
@@ -6,16 +14,55 @@
 
 .header{
     flex-direction: column;
-    height: auto;
     margin-top: 8px;
-    
+    background-image: linear-gradient(to left,#e80556,#1a2c79);
+    /* border-top-left-radius: 15px;
+    border-top-right-radius: 15px; */
+    padding-bottom: 0px;
 }
 
 .logo{
+    margin: 8px;
     flex-direction: column;
-    border: solid 2px #000;
+    border: solid 5px #fff;
     padding: 15px;
     border-radius: 15px;
+}
+.logo h1,h5{
+    color: #fff;
+}
+.sloga{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: serif;
+    color: #fff;
+}
+.info{
+    background-image: linear-gradient(to left,#e80556,#1a2c79);
+
+
+}
+
+ul.garantia li{
+    color: #fff;
+}
+
+.info_preco{
+    margin-top: 15px;
+}
+
+ul.garantia{
+    list-style-type: none;
+}
+
+.h2_preco{
+    padding: 2px;
+    border-bottom: #1a2c79 3px solid;
+
+}
+.p_sloga{
+    font-size: 25px;
+    font-family: serif;
 }
 
 /***********CORPO************/

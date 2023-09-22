@@ -1,54 +1,187 @@
 {% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="{% static 'css/styler.css' %}">
-    <title>Iago seguidores</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/css_home.css' %}">
+    <title>Home</title>
 </head>
+
 <body>
-    <div class="container header flex">
-        <div class="logo flex">
-            <h1>SEGUIDORES</h1>
-            <h5>Engajados🚀</h5>
+
+    <header class="container-fluid flex bg_gradiente">
+        <h1>Bem Vindo a Seguidores Prime</h1>
+    </header>
+    <div class="container flex">
+        <div class="container">
+            <h3>Comprar Seguidores, Curtidas e Visualizações</h3>
+            <p>Impulsione o seu perfil nas redes sociais com serviços de qualidade e um ótimo preço!</p>
         </div>
-        <p class="sloga">Comprar Seguidores Reais No Instagram</p>
-    </div>
-    <div class="container border ">
-        <div class="logo_corpo flex">
-            <h2 class="color">PREÇOS</h2>
-            <p>Temos os melhores preços do mercado para seu Instagram crescer</p>
+        <div class=" container div_img_logo flex">
+            <img src="../static/img/insta.png" alt="">
+            <img src="../static/img/facebook.png" alt="">
+            <img src="../static/img/tiktok.png" alt="">
+            <img src="../static/img/youtube.png" alt="">
+            <img src="../static/img/twitter.png" alt="">
+            <img src="../static/img/kwai.png" alt="">
         </div>
     </div>
 
-    <div class="container corpo flex" id="corpo">
-        <!-- <div class="card">
-            <div class="card_header">
-                <p class="p1">500 SEGUIDORES</p>
-                <p class="p2">SEGUIDORES BRASILEIROS E REAIS🚀</p>
-            </div>
-            <div class="class_corpo flex">
-                <p class="p_preco" ><span class="spam_preco">R$</span> 9,90</p>
-            </div>
-            <div class="class_footer flex">
-                <ul>
-                    <li>Entrega Imediata</li>
-                    <li>Seguidores Reais</li>
-                    <li>Seguidores Brasileiros</li>
-                    <li>Suporte Via WhatsApp</li>
-                    <li>Garantia total - 100%</li>
-                    <li>Não pedimos a sua senha</li>
-                </ul>
-                <button id="btn_comprar" class="btn btn-success">Comprar</button>
-            </div>
-        </div> -->
+    <div class="container-fluid bg_gradiente">
+        <h2>Selecione a Rede Social e o Serviço que você Deseja:</h2>
     </div>
-    <footer class="container border">
-        <h1 class="color">rodape</h1>
-    </footer>
-    <script src="{% static 'js/index.js' %}"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <div class="container-fluid cards flex">
+        <div class="container card">
+            <h5 style="color: #f2295b;">Instagram</h5>
+            <div class="container flex itens">
+                <div style="width: 18rem; " class=" flex">
+                    <img class="img_rede w-75" src="../static/img/insta.png" alt="">
+                </div>
+                <div class="flex">
+                    <div class="img_card">
+                        <a href="instagram"><img src="../static/img/seguidores-insta.png" alt=""></a>
+                        <a href="instagram" class="bnt_insta" >Seguidores</a>
+                    </div>
+                    <div class="img_card">
+                        <a href=""><img src="../static/img/curtidas-insta.png" alt=""></a>
+                        <a href=""class="bnt_insta">Curtidas</a>
+                    </div>
+                    <div class="img_card">
+                        <a href=""><img src="../static/img/visualizacoes-insta.png" alt=""></a>
+                        <a href=""  class="bnt_insta">Visualizações</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container card">
+            <h5 style="color: #4471e8;">Facebook</h5>
+            <div class="container flex itens">
+                <div style="width: 18rem; " class="flex">
+                    <img class="img_rede w-75" src="../static/img/facebook.png" alt="">
+                </div>
+                <div class="flex">
+                    <div class="img_card">
+                        <a href=""><img src="../static/img/seguidores-facebook.png" alt=""></a>
+                        <button class="bnt_face">Seguidores</button>
+                    </div>
+                    <div class="img_card">
+                        <a href=""><img src="../static/img/curtidas-facebook.png" alt=""></a>
+                        <button class="bnt_face">Curtidas</button>
+                    </div>
+                    <div class="img_card">
+                        <a href=""><img src="../static/img/views-facebook.png" alt=""></a>
+                        <button class="bnt_face" >Visualizações</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container card">
+            <h5 style="color: #121212;">Tiktok</h5>
+            <div class="container flex itens">
+                <div style="width: 18rem; " class=" flex">
+                    <img class="img_rede w-75" src="../static/img/tiktok.png" alt="">
+                </div>
+                <div class="flex">
+                    <div class="img_card">
+                        <a href=""><img src="../static/img/seguidores-tiktok.png" alt=""></a>
+                        <button class="bnt_tik">Seguidores</button>
+                    </div>
+                    <div class="img_card">
+                        <a href=""><img src="../static/img/curtidas-tiktok.png" alt=""></a>
+                        <button class="bnt_tik">Curtidas</button>
+                    </div>
+                    <div class="img_card">
+                        <a href=""><img src="../static/img/views-tiktok.png" alt=""></a>
+                        <button class="bnt_tik">Visualizações</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container card">
+            <h5 style="color: #e80000;">Youtube</h5>
+            <div class="container flex itens">
+                <div style="width: 18rem; " class="flex">
+                    <img class="img_rede w-75" src="../static/img/youtube.png" alt="">
+                </div>
+                <div class="flex">
+                    <div class="img_card">
+                        <a href=""><img src="../static/img/inscritos-youtube.png" alt=""></a>
+                        <button class="bnt_you">Seguidores</button>
+                    </div>
+                    <div class="img_card">
+                        <a href=""><img src="../static/img/curtidas-youtube.png" alt=""></a>
+                        <button class="bnt_you">Curtidas</button>
+                    </div>
+                    <div class="img_card">
+                        <a href=""><img src="../static/img/views-youtube.png" alt=""></a>
+                        <button class="bnt_you">Visualizações</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container card">
+            <h5 style="color: #00bbf0;">Twitter</h5>
+            <div class="container flex itens">
+                <div style="width: 18rem; " class=" flex">
+                    <img class="img_rede w-75" src="../static/img/twitter.png" alt="">
+                </div>
+                <div class="flex">
+                    <div class="img_card">
+                        <a href=""><img src="../static/img/seguidores-twitter.png" alt=""></a>
+                        <button class="bnt_twi">Seguidores</button>
+                    </div>
+                    <div class="img_card">
+                        <a href=""><img src="../static/img/curtidas-twitter.png" alt=""></a>
+                        <button class="bnt_twi">Curtidas</button>
+                    </div>
+                    <div class="img_card">
+                        <a href=""><img src="../static/img/views-twitter.png" alt=""></a>
+                        <button class="bnt_twi">Visualizações</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container card">
+            <h5 style="color: #f9740a;">Kwai</h5>
+            <div class="container flex itens">
+                <div style="width: 18rem; " class="flex">
+                    <img class="img_rede w-75" src="../static/img/kwai.png" alt="">
+                </div>
+                <div class="flex">
+                    <div class="img_card">
+                        <a href=""><img src="../static/img/seguidores-kwai.png" alt=""></a>
+                        <button  class="bnt_kw">Seguidores</button>
+                    </div>
+                    <div class="img_card">
+                        <a href=""></a><img src="../static/img/curtidas-kwai.png" alt=""></a>
+                        <button class="bnt_kw">Curtidas</button>
+                    </div>
+                    <div class="img_card">
+                        <a href=""></a><img src="../static/img/visualizacoes-kwai.png" alt=""></a>
+                        <a href="" class="bnt_kw">Visualizações</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

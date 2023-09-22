@@ -72,7 +72,7 @@ let btn_comprar = [...document.querySelectorAll('#btn_comprar')]
 
 var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 var numeroTelefone = '5599984634296'
-var mensagem = "Olá quero comprar a quantidade de "
+var mensagem = "Olá quero comprar "
 
 
 btn_comprar.map((e) => {
