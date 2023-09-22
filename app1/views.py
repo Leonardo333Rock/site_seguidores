@@ -10,4 +10,8 @@ def Seguidores_instagram(request):
 def Curtida_insta(request):
     return render(request,'instagram/curtidas.html')
 
+def Visualizacao_insta(request):
+    return render(request,'instagram/visualizacao_insta.html')
+    
+
 
