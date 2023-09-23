@@ -38,4 +38,15 @@ def Curtidas_tik(request):
 def Visualizacao_tik(request):
     return render(request,'tiktok/visualizacao_tik.html')
 
+    #YOUTUBE
+
+def Seguidores_you(request):
+    return render(request,'youtube/seguidores_you.html')
+
+def Curtidas_you(request):
+    return render(request,'youtube/curtidas_you.html')
+
+def Visualizacao_you(request):
+    return render(request,'youtube/visualizacao_you.html')
+
 
