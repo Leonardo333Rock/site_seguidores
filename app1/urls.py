@@ -11,6 +11,10 @@ urlpatterns = [
     path('curtidas_face',views.Curtidas_face,name='curtidas_face'),
     path('visualizacao_face',views.Visualizacao_face,name='visualizacao_face'),
 
+    path('seguidores_tik',views.Seguidores_tik,name='seguidores_tik'),
+    path('curtidas_tik',views.Curtidas_tik,name='curtidas_face'),
+    path('visualizacao_tik',views.Visualizacao_tik,name='visualizacao_tik'),
+
 
 
 ]

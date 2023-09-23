@@ -27,3 +27,15 @@ def Visualizacao_face(request):
     return render(request,'facebook/visualizacao_face.html')
 
 
+    #TIKTOK
+
+def Seguidores_tik(request):
+    return render(request,'tiktok/seguidores_tik.html')
+
+def Curtidas_tik(request):
+    return render(request,'tiktok/curtidas_tik.html')
+
+def Visualizacao_tik(request):
+    return render(request,'tiktok/visualizacao_tik.html')
+
+
