@@ -31,5 +31,10 @@ urlpatterns = [
     path('visualizacao_twi',views.Visualizacao_twi,name='visualizacao_twi'),
 
 
+    #KWAI
+    path('seguidores_kwai',views.Seguidores_kwai,name='seguidores_kwai'),
+    path('curtidas_kwai',views.Curtidas_kwai,name='curtidas_kwai'),
+    path('visualizacao_kwai',views.Visualizacao_kwai,name='visualizacao_kwai'),
+
 
 ]

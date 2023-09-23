@@ -60,3 +60,15 @@ def Curtidas_twi(request):
 
 def Visualizacao_twi(request):
     return render(request,'twitter/visualizacao_twi.html')
+
+
+    #KWAI
+
+def Seguidores_kwai(request):
+    return render(request,'kwai/seguidores_kwai.html')
+
+def Curtidas_kwai(request):
+    return render(request,'kwai/curtidas_kwai.html')
+
+def Visualizacao_kwai(request):
+    return render(request,'kwai/visualizacao_kwai.html')
