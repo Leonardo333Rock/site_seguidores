@@ -50,3 +50,13 @@ def Visualizacao_you(request):
     return render(request,'youtube/visualizacao_you.html')
 
 
+    #YOUTUBE
+
+def Seguidores_twi(request):
+    return render(request,'twitter/seguidores_twi.html')
+
+def Curtidas_twi(request):
+    return render(request,'twitter/curtidas_twi.html')
+
+def Visualizacao_twi(request):
+    return render(request,'twitter/visualizacao_twi.html')

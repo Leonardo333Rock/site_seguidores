@@ -25,6 +25,11 @@ urlpatterns = [
     path('curtidas_you',views.Curtidas_you,name='curtidas_you'),
     path('visualizacao_you',views.Visualizacao_you,name='visualizacao_you'),
 
+    #YOUTUBE
+    path('seguidores_twi',views.Seguidores_twi,name='seguidores_twi'),
+    path('curtidas_twi',views.Curtidas_twi,name='curtidas_twi'),
+    path('visualizacao_twi',views.Visualizacao_twi,name='visualizacao_twi'),
+
 
 
 ]
