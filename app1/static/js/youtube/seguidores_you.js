@@ -77,7 +77,7 @@ var mensagem = "Olá quero comprar "
 
 btn_comprar.map((e) => {
     e.addEventListener('click', (e) => {
-        mensagem += e.target.parentNode.parentNode.children[0].children[0].innerHTML
+        mensagem += e.target.parentNode.parentNode.children[0].children[0].innerHTML + "no Youtube"
         if (isMobile) {
             var url = 'whatsapp://send?phone=' + numeroTelefone + '&text=' + encodeURIComponent(mensagem);
             window.location.href = url;
