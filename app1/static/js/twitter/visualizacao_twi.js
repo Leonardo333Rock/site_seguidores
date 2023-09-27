@@ -1,9 +1,9 @@
 let corpo = document.getElementById('corpo')
 
-const valores = ['7,90','12,90','20,90','32,90','49,90','67,90']
-const quantidades = ['500','1.000','2.000','5.000','10.000','15.000']
+const valores = ['7,90', '12,90', '20,90', '32,90', '49,90', '67,90']
+const quantidades = ['500', '1.000', '2.000', '5.000', '10.000', '15.000']
 
-for(let x=0; x<6; x++){
+for (let x = 0; x < 6; x++) {
     let card = document.createElement('div')
     let card_header = document.createElement('div')
     let p1 = document.createElement('p')
@@ -23,37 +23,37 @@ for(let x=0; x<6; x++){
 
 
     corpo.appendChild(card)
-    card.setAttribute('class','card')
+    card.setAttribute('class', 'card')
 
-    card_header.setAttribute('class','card_header')
+    card_header.setAttribute('class', 'card_header')
     card.appendChild(card_header)
 
-    p1.setAttribute('class','p1')
-    p1.innerHTML=`${quantidades[x]} VISUALIZAÇOES`
-    p2.setAttribute('class','p2')
+    p1.setAttribute('class', 'p1')
+    p1.innerHTML = `${quantidades[x]} VISUALIZAÇOES`
+    p2.setAttribute('class', 'p2')
     p2.innerHTML = "SEGUIDORES BRASILEIROS E REAIS🚀"
 
     card_header.appendChild(p1)
     card_header.appendChild(p2)
 
-    class_corpo.setAttribute('class','class_corpo flex')
+    class_corpo.setAttribute('class', 'class_corpo flex')
     card.appendChild(class_corpo)
 
     class_corpo.appendChild(p_preco)
-    p_preco.setAttribute('class','p_preco')
-    p_preco.innerHTML=`<span class="spam_preco">R$</span> ${valores[x]}`
+    p_preco.setAttribute('class', 'p_preco')
+    p_preco.innerHTML = `<span class="spam_preco">R$</span> ${valores[x]}`
 
-    class_footer.setAttribute('class','class_footer flex')
+    class_footer.setAttribute('class', 'class_footer flex')
 
     card.appendChild(class_footer)
     class_footer.appendChild(ul)
 
-    li1.innerHTML="Entrega Imediata"
-    li2.innerHTML="Seguidores Reais"
-    li3.innerHTML="Seguidores Brasileiros"
-    li4.innerHTML="Suporte Via WhatsApp"
-    li5.innerHTML="Garantia total - 100%"
-    li6.innerHTML="Não pedimos a sua senha"
+    li1.innerHTML = "Entrega Imediata"
+    li2.innerHTML = "Seguidores Reais"
+    li3.innerHTML = "Seguidores Brasileiros"
+    li4.innerHTML = "Suporte Via WhatsApp"
+    li5.innerHTML = "Garantia total - 100%"
+    li6.innerHTML = "Não pedimos a sua senha"
 
     ul.appendChild(li1)
     ul.appendChild(li2)
@@ -62,9 +62,9 @@ for(let x=0; x<6; x++){
     ul.appendChild(li5)
     ul.appendChild(li6)
 
-    button.setAttribute('class','btn btn-success')
-    button.setAttribute('id','btn_comprar')
-    button.innerHTML='Comprar'
+    button.setAttribute('class', 'btn btn-success')
+    button.setAttribute('id', 'btn_comprar')
+    button.innerHTML = 'Comprar'
     class_footer.appendChild(button)
 
 }
@@ -72,12 +72,13 @@ let btn_comprar = [...document.querySelectorAll('#btn_comprar')]
 
 var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 var numeroTelefone = '5599984634296'
-var mensagem = "Olá quero comprar "
+var mensagem = ""
 
 
 btn_comprar.map((e) => {
     e.addEventListener('click', (e) => {
-        mensagem += e.target.parentNode.parentNode.children[0].children[0].innerHTML + "no Twitter"
+        mensagem = ""
+        mensagem = 'Olá quero comprar ' + e.target.parentNode.parentNode.children[0].children[0].innerHTML + "no Twitter"
         if (isMobile) {
             var url = 'whatsapp://send?phone=' + numeroTelefone + '&text=' + encodeURIComponent(mensagem);
             window.location.href = url;
