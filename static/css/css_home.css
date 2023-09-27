@@ -1,0 +1,161 @@
+*{
+    transition: ease;
+    transition-duration: 1s;
+}
+
+body{
+    background-color: #DDD;
+}
+
+.flex{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.bg_gradiente{
+    background-image: linear-gradient(to left,#e80556,#1a2c79);
+}
+
+.op{
+    color: #fff;
+    height: 85px;
+}
+
+
+header{
+    height: 110px;
+}
+
+header h1{
+    color: #fff;
+}
+
+h5{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.div_img_logo{
+    flex-wrap: wrap;
+}
+
+.div_img_logo img{
+    width: 32%;
+    height: auto;
+}
+
+/*********cards*********/
+
+.cards{
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+
+}
+
+.card{
+    background-color: #DDD;
+    margin-top: 50px;
+    width: auto;
+    display: flex;
+    justify-content:flex-start ;
+    align-items: center;
+    border: none;
+}
+
+.img_rede{
+    min-width: 96px;
+    min-height: 96px;
+}
+
+.img_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.img_card img{
+    margin-bottom: 5px;
+}
+
+.img_card button{
+    font-weight: bold;
+}
+
+.itens{
+    flex-wrap: wrap;
+}
+
+
+.bnt_insta{
+
+    border-radius: 8px;
+    color: #f2295b;
+    border: #f2295b solid 2px;
+    font-weight: bold;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 3px;
+}
+
+.bnt_face{
+    border-radius: 8px;
+    color: #4471e8;
+    border: #4471e8 solid 2px;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 3px;
+    font-weight: bold;
+
+}
+
+.bnt_tik{
+    border-radius: 8px;
+    color: #121212;
+    border: #121212 solid 2px;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 3px;
+    font-weight: bold;
+
+}
+
+.bnt_you{
+    border-radius: 8px;
+    color: #e80000;
+    border: #e80000 solid 2px;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 3px;
+    font-weight: bold;
+
+}
+
+.bnt_twi{
+    border-radius: 8px;
+    color: #00bbf0;
+    border: #00bbf0 solid 2px;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 3px;
+    font-weight: bold;
+
+}
+
+.bnt_kw{
+    border-radius: 8px;
+    color: #f9740a;
+    border: #f9740a solid 2px;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 3px;
+    font-weight: bold;
+
+}
+
+/* .bnt_kw:hover,.bnt_twi:hover,.bnt_you:hover,.bnt_insta:hover,.bnt_face:hover,.bnt_tik:hover{
+    background-color: rgba(45, 197, 45, 0.915);
+} */
+

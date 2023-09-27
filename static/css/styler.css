@@ -1,0 +1,152 @@
+
+.topo{
+    flex-direction: column;
+    width: 100%;
+
+}  
+
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-itens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.header{
+    flex-direction: column;
+    margin-top: 8px;
+    background-image: linear-gradient(to left,#e80556,#1a2c79);
+    /* border-top-left-radius: 15px;
+    border-top-right-radius: 15px; */
+    padding-bottom: 0px;
+}
+
+.logo{
+    text-decoration: none;
+    margin: 8px;
+    flex-direction: column;
+    border: solid 5px #fff;
+    padding: 15px;
+    border-radius: 15px;
+}
+.logo h1,h5{
+    text-decoration: none;
+    color: #fff;
+}
+.sloga{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: serif;
+    color: #fff;
+}
+.info{
+    background-image: linear-gradient(to left,#e80556,#1a2c79);
+
+
+}
+
+ul.garantia li{
+    color: #fff;
+}
+
+.info_preco{
+    margin-top: 15px;
+}
+
+ul.garantia{
+    list-style-type: none;
+}
+
+.h2_preco{
+    padding: 2px;
+    border-bottom: #1a2c79 3px solid;
+
+}
+.p_sloga{
+    font-size: 25px;
+    font-family: serif;
+}
+
+/***********CORPO************/
+
+
+.card_header{
+    background-color: #1a2c79;
+    border-radius: 8px 8px 0px 0px;
+    padding: 10px;
+    color: #ffff;
+}
+
+.p1{
+    font-size: 25px;
+}
+
+.p2{
+    font-size: 18px;
+}
+
+.p_preco{
+    font-size: 60px;
+}
+
+.corpo{
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 5px;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.logo_corpo{
+    flex-direction: column;
+
+}
+
+.class_corpo{
+    background-color: #e80556;
+    color: #ffff;
+    padding: 12px;
+}
+
+.spam_preco{
+    position: relative;
+    top: -34px;
+    left: 13px;
+    font-size: 45px;
+
+}
+
+.class_footer{
+    flex-direction: column;
+    
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+
+}
+
+ul li::before{
+    content: "";
+    background-image: url('../img/ok.png');
+    background-size: contain;
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    margin-right: 5px
+
+}
+
