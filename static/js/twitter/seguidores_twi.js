@@ -78,7 +78,7 @@ var mensagem = ""
 btn_comprar.map((e) => {
     e.addEventListener('click', (e) => {
         mensagem = ""
-        mensagem = 'Olá quero comprar '+e.target.parentNode.parentNode.children[0].children[0].innerHTML + "no Twitter"
+        mensagem = 'Olá quero comprar '+e.target.parentNode.parentNode.children[0].children[0].innerHTML + " no Twitter"
         if (isMobile) {
             var url = 'whatsapp://send?phone=' + numeroTelefone + '&text=' + encodeURIComponent(mensagem);
             window.location.href = url;
