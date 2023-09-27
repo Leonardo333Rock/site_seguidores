@@ -1,7 +1,7 @@
 let corpo = document.getElementById('corpo')
 
-const valores = ['9,90','16,90','29,90','49,90','89,90','139,90']
-const quantidades = ['500','1.000','2.000','5.000','10.000','15.000']
+const valores = ['9,90','17,90','29,90','44,90','53,90','77,90']
+const quantidades = ['500','1.000','2.000','3.000','5.000','10.000']
 
 for(let x=0; x<6; x++){
     let card = document.createElement('div')

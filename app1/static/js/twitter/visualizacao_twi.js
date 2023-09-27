@@ -1,6 +1,6 @@
 let corpo = document.getElementById('corpo')
 
-const valores = ['9,90','16,90','29,90','49,90','89,90','139,90']
+const valores = ['7,90','12,90','20,90','32,90','49,90','67,90']
 const quantidades = ['500','1.000','2.000','5.000','10.000','15.000']
 
 for(let x=0; x<6; x++){
