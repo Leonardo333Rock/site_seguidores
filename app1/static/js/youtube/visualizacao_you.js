@@ -77,6 +77,7 @@ var mensagem = ""
 
 btn_comprar.map((e) => {
     e.addEventListener('click', (e) => {
+        
         mensagem = ""
         mensagem = 'Olá quero comprar ' + e.target.parentNode.parentNode.children[0].children[0].innerHTML + "no Youtube"
         if (isMobile) {
@@ -86,6 +87,6 @@ btn_comprar.map((e) => {
             var webUrl = 'https://web.whatsapp.com/send?phone=' + numeroTelefone + '&text=' + encodeURIComponent(mensagem);
             window.open(webUrl);
         }
-
+        location.reload()
     })
 })

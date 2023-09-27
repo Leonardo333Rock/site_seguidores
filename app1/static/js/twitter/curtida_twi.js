@@ -86,6 +86,7 @@ btn_comprar.map((e) => {
             var webUrl = 'https://web.whatsapp.com/send?phone=' + numeroTelefone + '&text=' + encodeURIComponent(mensagem);
             window.open(webUrl);
         }
+        location.reload()
 
     })
 })
