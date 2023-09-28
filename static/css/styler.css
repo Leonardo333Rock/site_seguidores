@@ -98,6 +98,7 @@ ul.garantia{
 
 .corpo{
     flex-wrap: wrap;
+
 }
 
 .card{
@@ -149,4 +150,20 @@ ul li::before{
     margin-right: 5px
 
 }
+footer{
+    z-index: 999999999;
+    position:fixed;
+    bottom: 0px;
+    right: 0px;
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: center; */
+    float: right;
+    height: auto;
+}
 
+footer img{
+    height: 48px;
+    width: auto;
+    margin: 4px;
+}

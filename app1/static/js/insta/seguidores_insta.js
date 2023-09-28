@@ -78,7 +78,7 @@ var mensagem = ""
 btn_comprar.map((e) => {
     e.addEventListener('click', (e) => {
         mensagem = ""
-        mensagem = 'Olá quero comprar' + e.target.parentNode.parentNode.children[0].children[0].innerHTML + " no Instagram"
+        mensagem = 'Olá quero comprar ' + e.target.parentNode.parentNode.children[0].children[0].innerHTML + " no Instagram"
         if (isMobile) {
             var url = 'whatsapp://send?phone=' + numeroTelefone + '&text=' + encodeURIComponent(mensagem);
             window.location.href = url;
@@ -86,6 +86,6 @@ btn_comprar.map((e) => {
             var webUrl = 'https://web.whatsapp.com/send?phone=' + numeroTelefone + '&text=' + encodeURIComponent(mensagem);
             window.open(webUrl);
         }
-        location.reload()
+
     })
 })
