@@ -159,3 +159,20 @@ h5{
     background-color: rgba(45, 197, 45, 0.915);
 } */
 
+footer{
+    z-index: 999999999;
+    position:fixed;
+    bottom: 0px;
+    right: 0px;
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: center; */
+    float: right;
+    height: auto;
+}
+
+footer img{
+    height: 48px;
+    width: auto;
+    margin: 4px;
+}
